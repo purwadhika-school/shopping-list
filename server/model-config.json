@@ -14,15 +14,15 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mydb"
   },
   "AccessToken": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mydb",
+    "public": true
   },
   "ACL": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "RoleMapping": {
     "dataSource": "db",
