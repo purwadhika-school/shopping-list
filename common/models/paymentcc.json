@@ -1,0 +1,37 @@
+{
+  "name": "paymentcc",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "order_id": {
+      "type": "string",
+      "required": true
+    },
+    "name_customer": {
+      "type": "string",
+      "required": true
+    },
+    "total_amount": {
+      "type": "number"
+    },
+    "cc_number": {
+      "type": "number",
+      "required": true
+    },
+    "cc_expireddate": {
+      "type": "string",
+      "required": true
+    },
+    "cc_cvv": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
