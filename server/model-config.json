@@ -53,5 +53,9 @@
   "cart": {
     "dataSource": "mydb",
     "public": true
+  },
+  "order": {
+    "dataSource": "mydb",
+    "public": true
   }
 }

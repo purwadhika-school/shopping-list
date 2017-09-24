@@ -10,19 +10,21 @@
       "type": "string",
       "required": true
     },
-    "order_id": {
+    "cart_id": {
       "type": "string",
       "required": true
     },
-    "status": {
-      "type": "string",
-      "required": true,
-      "default": "open"
+    "product_id": {
+      "type": "number"
     },
-    "cart": {
-      "type": [
-        "object"
-      ]
+    "product_name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
     }
   },
   "validations": [],
