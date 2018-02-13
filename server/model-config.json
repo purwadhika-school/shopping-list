@@ -57,5 +57,9 @@
   "order": {
     "dataSource": "mydb",
     "public": true
+  },
+  "movie_list": {
+    "dataSource": "mydb",
+    "public": true
   }
 }
