@@ -73,5 +73,9 @@
   "reviewer_list": {
     "dataSource": "mydb",
     "public": true
+  },
+  "income": {
+    "dataSource": "mydb",
+    "public": true
   }
 }
