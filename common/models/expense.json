@@ -1,5 +1,5 @@
 {
-  "name": "income",
+  "name": "expense",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -13,12 +13,6 @@
       "type": "string"
     },
     "amount": {
-      "type": "string"
-    },
-    "paydate": {
-      "type": "string"
-    },
-    "organization": {
       "type": "string"
     },
     "uid": {

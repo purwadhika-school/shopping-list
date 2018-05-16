@@ -77,5 +77,9 @@
   "income": {
     "dataSource": "mydb",
     "public": true
+  },
+  "expense": {
+    "dataSource": "mydb",
+    "public": true
   }
 }
